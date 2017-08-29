@@ -11,7 +11,7 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 
 .flex { display: flex }
 
-@media #{$breakpoint-sm} {
+/*@media #{$breakpoint-sm} {
   .sm-flex { display: flex }
 }
 
@@ -21,7 +21,7 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 
 @media #{$breakpoint-lg} {
   .lg-flex { display: flex }
-}
+}*/
 
 .flex-column  { flex-direction: column }
 

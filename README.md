@@ -4,7 +4,7 @@ Transpiled Basscss Sass partials
 
 http://basscss.com
 
-basscss fork
+fork basscss，移除部分多余样式。
 
 ---
 
