@@ -18,7 +18,7 @@ $breakpoint-lg: '(min-width: 64em)' !default;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-
+/*
 @media #{$breakpoint-xs} {
   .xs-hide { display: none !important }
 }
@@ -34,5 +34,5 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 @media #{$breakpoint-lg} {
   .lg-hide { display: none !important }
 }
-
+*/
 .display-none { display: none !important }

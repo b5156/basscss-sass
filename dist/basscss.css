@@ -279,5 +279,80 @@
 .z4 {
   z-index: 4; }
 
-/*@import "border";*/
-/*@import "hide";*/
+/* Basscss Border */
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ebedf0; }
+
+.border-top {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #ebedf0; }
+
+.border-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #ebedf0; }
+
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #ebedf0; }
+
+.border-left {
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #ebedf0; }
+
+.border-none {
+  border: 0; }
+
+.rounded {
+  border-radius: 3px; }
+
+.circle {
+  border-radius: 50%; }
+
+.rounded-top {
+  border-radius: 3px 3px 0 0; }
+
+.rounded-right {
+  border-radius: 0 3px 3px 0; }
+
+.rounded-bottom {
+  border-radius: 0 0 3px 3px; }
+
+.rounded-left {
+  border-radius: 3px 0 0 3px; }
+
+.not-rounded {
+  border-radius: 0; }
+
+/* Basscss Hide */
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/*
+@media (max-width: 40em) {
+  .xs-hide { display: none !important }
+}
+
+@media (min-width: 40em) and (max-width: 52em) {
+  .sm-hide { display: none !important }
+}
+
+@media (min-width: 52em) and (max-width: 64em) {
+  .md-hide { display: none !important }
+}
+
+@media (min-width: 64em) {
+  .lg-hide { display: none !important }
+}
+*/
+.display-none {
+  display: none !important; }
