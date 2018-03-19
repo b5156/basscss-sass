@@ -1,0 +1,17 @@
+.ckg{
+    position: relative;
+}
+
+.ckg:hover .l{
+    display: block;
+}
+
+.s{
+    max-width: 50px;
+}
+
+.l{
+    display:  none;
+    position: absolute;
+    right:    0;
+}
