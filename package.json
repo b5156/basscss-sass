@@ -23,7 +23,11 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+<<<<<<< HEAD
     "gulp-postcss": "^7.0.1",
+=======
+    "gulp-px2rpx": "^0.2.2",
+>>>>>>> 9860013881c332047609ebc23dfbffbb4730898e
     "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^2.1.1",
     "node-sass": "^3.4.2"
